@@ -31,11 +31,13 @@ article {
 }
 
 .article--title {
+  --gap: 2rem;
   position: relative;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  padding-top: 2rem;
+  padding-top: var(--gap);
+  padding-inline: calc(var(--gap) * 2);
 }
 
 .article--title:nth-of-type(3) {
@@ -96,7 +98,8 @@ article .article-content p:not(:first-of-type) {
 
 @media (min-width: 490px) {
   .article--title {
-    flex-direction: row;    
+    flex-direction: row;
+    padding-inline: 0.675rem;
   }
   .article--meta-main {
     align-self: flex-end;
