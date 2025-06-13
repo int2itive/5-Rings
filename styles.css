@@ -36,7 +36,7 @@ article {
   flex-direction: column;
   justify-content: space-between;
   padding-top: var(--gap);
-  padding-inline: 0.675rem;
+  padding-inline: 0.525rem;
 }
 
 .article--title:nth-of-type(3) {
