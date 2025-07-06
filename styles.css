@@ -97,7 +97,7 @@ article .article-content p:not(:first-of-type) {
   letter-spacing: 0.020rem;
 }
 
-@media (min-width: 490px) {
+@media (min-width: 690px) {
   .article--title {
     --gap: 2rem;
     flex-direction: row;
