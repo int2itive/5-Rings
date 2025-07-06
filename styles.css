@@ -15,6 +15,10 @@
   box-sizing: border-box;
 }
 
+:root {
+  --gap: 2rem;
+}
+
 body {
   /*font-family: 'Impact', sans-serif;*/
   font-family: 'Encode Sans Condensed';
