@@ -39,6 +39,7 @@ article {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  gap: var(--gap);
   padding-top: var(--gap);
   padding-inline: 0.525rem;
   margin-bottom: 2rem;
